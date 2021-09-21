@@ -2,16 +2,26 @@ from PropData import PropData
 
 # argparse goes here
 
-def printls(list):
-    for i in list:
+DEBUG = True
+
+
+def printls(ll):
+    for i in ll:
         print(i)
 
 
 fIn = open("../examples/sample1.txt", "r")
-fOut = open("../examples/out1.gnut", "w")
+fOutSqrrl = open("../examples/out1.gnut", "w")
+
+debugData = ""
+# print to a debug file while i'm testing
+if DEBUG:
+    fOutDebug = open("../examples/out1.txt", "w")
 
 allCommands = fIn.readlines()
-propCommands = []
+props = []
+propsFormatted = ""
+
 
 def handleInput():
     """ Reads in lines from the R5R console and finds prop data """
@@ -22,22 +32,46 @@ def handleInput():
             # what is error handling and input checking
             try:
                 pr = PropData(s[i+8:])
-                propCommands.append(pr)
+                props.append(pr)
             except:
                 print("Invalid input: " + s)
 
+
 def process():
     """ Processes the stuff """
-    pass
+    global propsFormatted
+    global debugData
+
+    propsFormatted += "void function SpawnEditorProps()\n{\n" # Respawn braces are pain peko
+    for p in props:
+        decoded = p.decode()
+        propsFormatted += createFRProp(decoded)
+        if DEBUG:
+            debugData += (decoded + "\n")
+
+    propsFormatted += "}\n" # closing brace, very important
+
 
 def export():
     """ Exports the props to a functional Apex Legends map
         (not complete yet) """
-    printls(propCommands)
+    printls(props)
+    fOutSqrrl.write(propsFormatted)
+    if DEBUG:
+        fOutDebug.write(debugData)
+
+
+def createFRProp(propInfo: str) -> str:
+    """ Creates a firing range prop """
+    return "CreateFRProp (" + propInfo + " )\n"
 
 
 handleInput()
+process()
 export()
 
 fIn.close()
-fOut.close()
+fOutSqrrl.close()
+if DEBUG:
+    fOutDebug.close()
+
