@@ -1,0 +1,560 @@
+[DEBUG] THREAD ID: 17264
+
+# editor
+
+[32.235] Script(S):############################
+
+[32.235] Script(S):CodeCallback_ClientCommand() before
+
+[32.235] Script(S):player = entity (1: player veryflammable [1])
+
+[32.236] Script(S):args:
+
+[32.236] Script(S):0 : editor
+
+[32.236] Script(S):############################
+
+[35.543] Script(U):menu_SystemMenu menu opened
+
+[36.321] Script(U):menu_DevMenu menu opened
+
+[39.179] Script(U):menu_DevMenu menu closed
+
+[39.179] Script(U):menu_SystemMenu menu closed
+
+[39.179] Script(S):############################
+
+[39.179] Script(S):CodeCallback_ClientCommand() before
+
+[39.179] Script(S):player = entity (1: player veryflammable [1])
+
+[39.179] Script(S):args:
+
+[39.179] Script(S):0 : tgive
+
+[39.179] Script(S):1 : p
+
+[39.179] Script(S):2 : mp_weapon_semipistol
+
+[39.179] Script(S):3 : optic_cq_hcog_classic
+
+[39.179] Script(S):4 : bullets_mag_l3
+
+[39.179] Script(S):5 : hopup_unshielded_dmg
+
+[39.179] Script(S):############################
+
+[41.369] Script(C):Attack
+
+[41.379] Script(S):############################
+
+[41.379] Script(S):CodeCallback_ClientCommand() before
+
+[41.379] Script(S):player = entity (1: player veryflammable [1])
+
+[41.379] Script(S):args:
+
+[41.379] Script(S):0 : place
+
+[41.379] Script(S):############################
+
+[41.379] Script(S):[editor]mdl/error.rmdl;21675.2,29999.5,-4253.87;0,148.571,0
+
+[41.983] Script(C):Attack
+
+[42.026] Script(S):############################
+
+[42.026] Script(S):CodeCallback_ClientCommand() before
+
+[42.026] Script(S):player = entity (1: player veryflammable [1])
+
+[42.026] Script(S):args:
+
+[42.026] Script(S):0 : place
+
+[42.026] Script(S):############################
+
+[42.026] Script(S):[editor]mdl/error.rmdl;21821.3,30000.2,-4253.87;0,103.748,0
+
+[43.212] Script(C):Attack
+
+[43.222] Script(S):############################
+
+[43.222] Script(S):CodeCallback_ClientCommand() before
+
+[43.222] Script(S):player = entity (1: player veryflammable [1])
+
+[43.222] Script(S):args:
+
+[43.222] Script(S):0 : place
+
+[43.222] Script(S):############################
+
+[43.222] Script(S):[editor]mdl/error.rmdl;21805.7,29827.6,-4253.87;0,-65.8994,0
+
+# model mdl/foliage/desertlands_alien_tree_leaf_large_01.rmdl
+
+[14.634] Script(S):############################
+
+[14.634] Script(S):CodeCallback_ClientCommand() before
+
+[14.634] Script(S):player = entity (1: player veryflammable [1])
+
+[14.634] Script(S):args:
+
+[14.634] Script(S):0 : model
+
+[14.634] Script(S):1 : mdl/foliage/desertlands_alien_tree_leaf_large_01.rmdl
+
+[14.634] Script(S):############################
+
+# model mdl/market/market_table_01.rmdl
+
+[41.448] Script(S):############################
+
+[41.448] Script(S):CodeCallback_ClientCommand() before
+
+[41.448] Script(S):player = entity (1: player veryflammable [1])
+
+[41.448] Script(S):args:
+
+[41.448] Script(S):0 : model
+
+[41.448] Script(S):1 : mdl/market/market_table_01.rmdl
+
+[41.448] Script(S):############################
+
+[49.318] Script(C):Attack
+
+[49.347] Script(S):############################
+
+[49.347] Script(S):CodeCallback_ClientCommand() before
+
+[49.347] Script(S):player = entity (1: player veryflammable [1])
+
+[49.347] Script(S):args:
+
+[49.347] Script(S):0 : place
+
+[49.347] Script(S):############################
+
+[49.347] Script(S):[editor]mdl/market/market_table_01.rmdl;21438.4,29538,-4692.9;0,40.2701,0
+
+[54.229] Script(C):Attack
+
+[54.252] Script(S):############################
+
+[54.252] Script(S):CodeCallback_ClientCommand() before
+
+[54.252] Script(S):player = entity (1: player veryflammable [1])
+
+[54.252] Script(S):args:
+
+[54.252] Script(S):0 : place
+
+[54.252] Script(S):############################
+
+[54.252] Script(S):[editor]mdl/market/market_table_01.rmdl;21485.8,29330.3,-4707.57;0,-172.981,0
+
+# model mdl/containers/pelican_case_large.rmdl
+
+[28.458] Script(S):############################
+
+[28.458] Script(S):CodeCallback_ClientCommand() before
+
+[28.458] Script(S):player = entity (1: player veryflammable [1])
+
+[28.458] Script(S):args:
+
+[28.458] Script(S):0 : model
+
+[28.458] Script(S):1 : mdl/containers/pelican_case_large.rmdl
+
+[28.458] Script(S):############################
+
+[31.422] Script(C):Up
+
+[31.453] Script(S):############################
+
+[31.453] Script(S):CodeCallback_ClientCommand() before
+
+[31.453] Script(S):player = entity (1: player veryflammable [1])
+
+[31.453] Script(S):args:
+
+[31.453] Script(S):0 : moveUp
+
+[31.453] Script(S):############################
+
+[31.453] Script(S):############################
+
+[31.453] Script(S):CodeCallback_ClientCommand() before
+
+[31.453] Script(S):player = entity (1: player veryflammable [1])
+
+[31.453] Script(S):args:
+
+[31.453] Script(S):0 : PlayerSwitchedWeapons
+
+[31.453] Script(S):1 : 0
+
+[31.453] Script(S):############################
+
+[34.075] Script(C):Attack
+
+[34.107] Script(S):############################
+
+[34.107] Script(S):CodeCallback_ClientCommand() before
+
+[34.107] Script(S):player = entity (1: player veryflammable [1])
+
+[34.107] Script(S):args:
+
+[34.107] Script(S):0 : place
+
+[34.107] Script(S):############################
+
+[34.107] Script(S):[editor]mdl/containers/pelican_case_large.rmdl;22012.5,29481.3,-4654.97;0,59.1111,0
+
+[36.932] Script(C):Attack
+
+[36.951] Script(S):############################
+
+[36.951] Script(S):CodeCallback_ClientCommand() before
+
+[36.951] Script(S):player = entity (1: player veryflammable [1])
+
+[36.951] Script(S):args:
+
+[36.951] Script(S):0 : place
+
+[36.951] Script(S):############################
+
+[36.951] Script(S):[editor]mdl/containers/pelican_case_large.rmdl;22038.8,29411.8,-4654.97;0,-11.3243,0
+
+[40.833] Script(C):Attack
+
+[40.855] Script(S):############################
+
+[40.855] Script(S):CodeCallback_ClientCommand() before
+
+[40.855] Script(S):player = entity (1: player veryflammable [1])
+
+[40.855] Script(S):args:
+
+[40.855] Script(S):0 : place
+
+[40.855] Script(S):############################
+
+[40.855] Script(S):[editor]mdl/containers/pelican_case_large.rmdl;22068.3,29409.8,-4589;0,-16.1024,0
+
+[45.135] Script(C):Attack
+
+[45.166] Script(S):############################
+
+[45.166] Script(S):CodeCallback_ClientCommand() before
+
+[45.166] Script(S):player = entity (1: player veryflammable [1])
+
+[45.166] Script(S):args:
+
+[45.166] Script(S):0 : place
+
+[45.166] Script(S):############################
+
+[45.166] Script(S):[editor]mdl/containers/pelican_case_large.rmdl;22209.7,29527.5,-4654.97;0,-104.589,0
+
+# model mdl/desertlands/building_ice_b2t_01.rmdl
+
+[12.088] Script(S):############################
+
+[12.088] Script(S):CodeCallback_ClientCommand() before
+
+[12.088] Script(S):player = entity (1: player veryflammable [1])
+
+[12.088] Script(S):args:
+
+[12.088] Script(S):0 : model
+
+[12.088] Script(S):1 : mdl/desertlands/building_ice_b2t_01.rmdl
+
+[12.088] Script(S):############################
+
+# model mdl/desertlands/desertlands_lobby_couch_01.rmdl
+
+[40.075] Script(S):############################
+
+[40.075] Script(S):CodeCallback_ClientCommand() before
+
+[40.075] Script(S):player = entity (1: player veryflammable [1])
+
+[40.075] Script(S):args:
+
+[40.075] Script(S):0 : model
+
+[40.075] Script(S):1 : mdl/desertlands/desertlands_lobby_couch_01.rmdl
+
+[40.075] Script(S):############################
+
+[46.974] Script(C):Attack
+
+[46.986] Script(S):############################
+
+[46.986] Script(S):CodeCallback_ClientCommand() before
+
+[46.986] Script(S):player = entity (1: player veryflammable [1])
+
+[46.986] Script(S):args:
+
+[46.986] Script(S):0 : place
+
+[46.986] Script(S):############################
+
+[46.986] Script(S):[editor]mdl/desertlands/desertlands_lobby_couch_01.rmdl;22256.5,29429.5,-4654.97;0,-157.802,0
+
+[47.330] Script(C):CodeCallback_OnMeleeAttackAnimEvent
+
+[47.331] Script(S):CodeCallback_OnMeleeAttackAnimEvent
+
+# model mdl/homestead/homestead_floor_panel_01.rmdl
+
+[10.524] Script(S):############################
+
+[10.524] Script(S):CodeCallback_ClientCommand() before
+
+[10.524] Script(S):player = entity (1: player veryflammable [1])
+
+[10.524] Script(S):args:
+
+[10.524] Script(S):0 : model
+
+[10.524] Script(S):1 : mdl/homestead/homestead_floor_panel_01.rmdl
+
+[10.524] Script(S):############################
+
+[14.541] Script(C):Attack
+
+[14.580] Script(S):############################
+
+[14.580] Script(S):CodeCallback_ClientCommand() before
+
+[14.580] Script(S):player = entity (1: player veryflammable [1])
+
+[14.580] Script(S):args:
+
+[14.580] Script(S):0 : place
+
+[14.580] Script(S):############################
+
+[14.580] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22390.1,29310.8,-4654.97;0,138.31,0
+
+[14.896] Script(C):CodeCallback_OnMeleeAttackAnimEvent
+
+[14.925] Script(S):CodeCallback_OnMeleeAttackAnimEvent
+
+[15.579] Script(C):Up
+
+[15.633] Script(S):############################
+
+[15.633] Script(S):CodeCallback_ClientCommand() before
+
+[15.633] Script(S):player = entity (1: player veryflammable [1])
+
+[15.633] Script(S):args:
+
+[15.633] Script(S):0 : moveUp
+
+[15.633] Script(S):############################
+
+[15.633] Script(S):############################
+
+[15.633] Script(S):CodeCallback_ClientCommand() before
+
+[15.633] Script(S):player = entity (1: player veryflammable [1])
+
+[15.633] Script(S):args:
+
+[15.633] Script(S):0 : PlayerSwitchedWeapons
+
+[15.633] Script(S):1 : 0
+
+[15.633] Script(S):############################
+
+[27.716] Script(C):Attack
+
+[27.730] Script(S):############################
+
+[27.730] Script(S):CodeCallback_ClientCommand() before
+
+[27.730] Script(S):player = entity (1: player veryflammable [1])
+
+[27.730] Script(S):args:
+
+[27.730] Script(S):0 : place
+
+[27.730] Script(S):############################
+
+[27.730] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22469.9,29335.6,-4652.97;0,136.123,0
+
+[29.095] Script(C):Attack
+
+[29.125] Script(S):############################
+
+[29.125] Script(S):CodeCallback_ClientCommand() before
+
+[29.125] Script(S):player = entity (1: player veryflammable [1])
+
+[29.125] Script(S):args:
+
+[29.125] Script(S):0 : place
+
+[29.125] Script(S):############################
+
+[29.125] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22516.6,29290.2,-4652.97;0,136.051,0
+
+[30.606] Script(C):Attack
+
+[30.678] Script(S):############################
+
+[30.678] Script(S):CodeCallback_ClientCommand() before
+
+[30.678] Script(S):player = entity (1: player veryflammable [1])
+
+[30.678] Script(S):args:
+
+[30.678] Script(S):0 : place
+
+[30.678] Script(S):############################
+
+[30.678] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22509.1,29215.9,-4650.37;0,136.051,0
+
+[34.513] Script(C):Attack
+
+[34.526] Script(S):############################
+
+[34.526] Script(S):CodeCallback_ClientCommand() before
+
+[34.526] Script(S):player = entity (1: player veryflammable [1])
+
+[34.526] Script(S):args:
+
+[34.526] Script(S):0 : place
+
+[34.526] Script(S):############################
+
+[34.526] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22279.9,29496.7,-4652.97;0,155.785,0
+
+[35.989] Script(C):Attack
+
+[36.030] Script(S):############################
+
+[36.031] Script(S):CodeCallback_ClientCommand() before
+
+[36.031] Script(S):player = entity (1: player veryflammable [1])
+
+[36.031] Script(S):args:
+
+[36.031] Script(S):0 : place
+
+[36.031] Script(S):############################
+
+[36.031] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22237.8,29539.5,-4652.97;0,161.556,0
+
+[37.058] Script(C):Attack
+
+[37.083] Script(S):############################
+
+[37.083] Script(S):CodeCallback_ClientCommand() before
+
+[37.083] Script(S):player = entity (1: player veryflammable [1])
+
+[37.083] Script(S):args:
+
+[37.083] Script(S):0 : place
+
+[37.083] Script(S):############################
+
+[37.083] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22221.8,29576.9,-4652.97;0,165.377,0
+
+[40.743] Script(C):Attack
+
+[40.784] Script(S):############################
+
+[40.784] Script(S):CodeCallback_ClientCommand() before
+
+[40.784] Script(S):player = entity (1: player veryflammable [1])
+
+[40.784] Script(S):args:
+
+[40.784] Script(S):0 : place
+
+[40.784] Script(S):############################
+
+[40.784] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22211.3,29442.9,-4652.97;0,168.119,0
+
+[42.861] Script(C):Attack
+
+[42.935] Script(S):############################
+
+[42.935] Script(S):CodeCallback_ClientCommand() before
+
+[42.935] Script(S):player = entity (1: player veryflammable [1])
+
+[42.935] Script(S):args:
+
+[42.935] Script(S):0 : place
+
+[42.935] Script(S):############################
+
+[42.935] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22262.4,29445.3,-4652.97;0,162.175,0
+
+[46.416] Script(C):Attack
+
+[46.426] Script(S):############################
+
+[46.426] Script(S):CodeCallback_ClientCommand() before
+
+[46.426] Script(S):player = entity (1: player veryflammable [1])
+
+[46.426] Script(S):args:
+
+[46.426] Script(S):0 : place
+
+[46.426] Script(S):############################
+
+[46.426] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22209.5,29449.6,-4652.97;0,97.9554,0
+
+[50.994] Script(C):Attack
+
+[51.026] Script(S):############################
+
+[51.026] Script(S):CodeCallback_ClientCommand() before
+
+[51.026] Script(S):player = entity (1: player veryflammable [1])
+
+[51.026] Script(S):args:
+
+[51.026] Script(S):0 : place
+
+[51.026] Script(S):############################
+
+[51.026] Script(S):[editor]mdl/homestead/homestead_floor_panel_01.rmdl;22269.2,29430.1,-4652.97;0,4.08293,0
+
+# editor
+
+[56.521] Script(S):############################
+
+[56.521] Script(S):CodeCallback_ClientCommand() before
+
+[56.521] Script(S):player = entity (1: player veryflammable [1])
+
+[56.521] Script(S):args:
+
+[56.521] Script(S):0 : editor
+
+[56.521] Script(S):############################
+
+[00.365] Script(U):menu_SystemMenu menu opened
+
+[01.070] Script(U):menu_SystemMenu menu closed
+
