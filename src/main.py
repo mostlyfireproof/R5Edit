@@ -1,26 +1,33 @@
+import argparse
 from PropData import PropData
-
-# argparse goes here
 
 DEBUG = True
 
+# Sets up argparse
+parser = argparse.ArgumentParser(description='Creates a map from prop data')
+parser.add_argument('input', metavar='input', type=str, help='R5R log output in a file')
+parser.add_argument('output', metavar='output', type=str, default="map.gnut", help='The name of the map')
 
-def printls(ll):
-    for i in ll:
-        print(i)
+args = parser.parse_args()
 
-
-fIn = open("../examples/sample1.txt", "r")
-fOutSqrrl = open("../examples/out1.gnut", "w")
+# Opens files
+fIn = open(args.input, "r")
+fOutSqrrl = open(args.output, "w")
 
 debugData = ""
 # print to a debug file while i'm testing
 if DEBUG:
-    fOutDebug = open("../examples/out1.txt", "w")
+    fOutDebug = open("../examples/dbg.txt", "w")
 
 allCommands = fIn.readlines()
 props = []
 propsFormatted = ""
+
+
+def printls(ls):
+    """ Just prints each element of a list """
+    for i in ls:
+        print(i)
 
 
 def handleInput():
@@ -43,13 +50,14 @@ def process():
     global debugData
 
     propsFormatted += "void function SpawnEditorProps()\n{\n" # Respawn braces are pain peko
+    propsFormatted += "// Written by mostly fireproof. Let me know if there are any issues!\n"
     for p in props:
         decoded = p.decode()
         propsFormatted += createFRProp(decoded)
         if DEBUG:
             debugData += (decoded + "\n")
 
-    propsFormatted += "}\n" # closing brace, very important
+    propsFormatted += "}\n"  # closing brace, very important
 
 
 def export():
@@ -66,6 +74,7 @@ def createFRProp(propInfo: str) -> str:
     return "CreateFRProp (" + propInfo + " )\n"
 
 
+# This is where I actually run the functions
 handleInput()
 process()
 export()
