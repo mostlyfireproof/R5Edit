@@ -5,13 +5,17 @@ A tool to build maps out of props in the Apex Legends mod, R5Reloaded
 # Instuctions
 
 1. Install R5R
-2. [Get the prop spawner tool](https://github.com/mostlyfireproof/scripts_r5/tree/ModelSpawner)
-3. In the console, type `editor`
-4. Click to place the selected model   
-    1. More documentation on this tool soon
-5. In the console, hit `copy`
-6. Paste the logs in to a text file (currently hardcoded to sample1.txt)
-7. This program will write to out1.gnut
-8. Copy the generated function in to your map file, then make sure to call it
+2. Download this program
+3. [Get the prop spawner tool](https://github.com/mostlyfireproof/scripts_r5/tree/ModelSpawner)
+4. In the console, type `editor` to enable editing mode
+5. Click to place the selected model   
+    1. To change the model, type `model [model name]`
+6. In the console, hit `copy`
+7. Paste the logs in to a text file and save it
+8. Run `main.py` and specify the input and output files to use
+9. Copy the contents of the output file to the bottom of `vscripts\mp\levels\mp_rr_desertlands_common.nut`
+10. Inside the functtion `EntitiesDidLoad()`, paste `SpawnEditorProps()`
+11. Launch World's Edge
+
 
 Join the official Discord server for R5Reloaded: SAjuUWXNdS

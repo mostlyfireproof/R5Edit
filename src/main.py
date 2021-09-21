@@ -2,7 +2,7 @@ import argparse
 import words
 from PropData import PropData
 
-DEBUG = True
+DEBUG = False
 
 # Sets up argparse
 parser = argparse.ArgumentParser(description='Creates a map from prop data')
