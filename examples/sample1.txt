@@ -1,0 +1,397 @@
+[39.901] Script(S):Lockstep: -------------------------
+
+[39.901] Script(S):Lockstep: ASSIGNING LOCK STEP ORDER
+
+[39.901] Script(S):Lockstep: -------------------------
+
+[39.901] Script(S):Lockstep:   Team 2 Pick Order:
+
+[39.901] Script(S):Lockstep:     0: entity (1: player veryflammable [1]) veryflammable
+
+[39.901] Script(S):Lockstep: -------------------------
+
+[39.901] Script(S):Lockstep: -------------------------
+
+[40.000] Script(C):Calling ScreenCoverTransition with endTime 75.75  at time 72.7648
+
+[40.000] Script(C):1 File : sh_utility_all.gnut [199]
+    Function : DumpStack() 
+
+[40.000] Script(C):2 File : client/cl_screenfade.gnut [52]
+    Function : ScreenCoverTransition() 
+
+[42.902] Script(S):Init  true
+
+[42.902] Script(S):Init  true
+
+[43.023] Script(U):menu_CharacterSelectMenuNew menu opened
+
+[48.202] Script(C):| -------- UpdateScene --------
+
+[48.202] Script(C):| shouldUpdateModel: true
+
+[48.202] Script(C):| shouldUpdateAnim: true
+
+[48.202] Script(C):| -----------------------------
+
+[48.202] Script(C):| PICKING ANIM mdl/humans/class/light/pilot_light_support.rmdl
+
+[48.902] Script(C):| -------- UpdateScene --------
+
+[48.902] Script(C):| shouldUpdateModel: true
+
+[48.902] Script(C):| shouldUpdateAnim: true
+
+[48.902] Script(C):| -----------------------------
+
+[48.903] Script(C):| PICKING ANIM mdl/Humans/class/medium/pilot_medium_stim.rmdl
+
+[48.951] Script(S):############################
+
+[48.951] Script(S):CodeCallback_ClientCommand() before
+
+[48.951] Script(S):player = entity (1: player veryflammable [1])
+
+[48.951] Script(S):args:
+
+[48.951] Script(S):0 : UpdateCharacterSelectFocus
+
+[48.951] Script(S):1 : 843405508
+
+[48.951] Script(S):############################
+
+[49.085] Script(C):| -------- UpdateScene --------
+
+[49.085] Script(C):| shouldUpdateModel: true
+
+[49.085] Script(C):| shouldUpdateAnim: true
+
+[49.085] Script(C):| -----------------------------
+
+[49.085] Script(C):| PICKING ANIM mdl/Humans/class/light/pilot_light_wattson.rmdl
+
+[49.101] Script(S):############################
+
+[49.101] Script(S):CodeCallback_ClientCommand() before
+
+[49.101] Script(S):player = entity (1: player veryflammable [1])
+
+[49.101] Script(S):args:
+
+[49.101] Script(S):0 : UpdateCharacterSelectFocus
+
+[49.101] Script(S):1 : 187386164
+
+[49.101] Script(S):############################
+
+[49.650] Script(C):loadout change request: ? = character_wattson (SAID00187386164)
+
+[49.651] Script(S):############################
+
+[49.651] Script(S):CodeCallback_ClientCommand() before
+
+[49.651] Script(S):player = entity (1: player veryflammable [1])
+
+[49.651] Script(S):args:
+
+[49.651] Script(S):0 : loadouts_set
+
+[49.651] Script(S):1 : 0
+
+[49.651] Script(S):2 : 0
+
+[49.651] Script(S):3 : 11
+
+[49.651] Script(S):############################
+
+[49.651] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[49.651] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[49.651] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[49.651] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[49.652] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[49.652] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[49.652] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[49.652] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[49.652] Script(S):############################
+
+[49.652] Script(S):CodeCallback_ClientCommand() before
+
+[49.652] Script(S):player = entity (1: player veryflammable [1])
+
+[49.652] Script(S):args:
+
+[49.652] Script(S):0 : Sur_UpdateCharacterLock
+
+[49.652] Script(S):1 : 1
+
+[49.652] Script(S):############################
+
+[49.652] Script(S):############################
+
+[49.652] Script(S):CodeCallback_ClientCommand() before
+
+[49.652] Script(S):player = entity (1: player veryflammable [1])
+
+[49.652] Script(S):args:
+
+[49.652] Script(S):0 : Sur_MakeEligibleForJumpMaster
+
+[49.652] Script(S):############################
+
+[49.652] Script(S):############################
+
+[49.652] Script(S):CommandString: Sur_MakeEligibleForJumpMaster was not added via AddClientCommandCallback but is being called in CodeCallback_ClientCommand
+
+[49.652] Script(S):############################
+
+[49.652] Script(C):| -------- UpdateScene --------
+
+[49.652] Script(C):| shouldUpdateModel: true
+
+[49.652] Script(C):| shouldUpdateAnim: true
+
+[49.652] Script(C):| -----------------------------
+
+[49.685] Script(C):| -------- UpdateScene --------
+
+[49.685] Script(C):| shouldUpdateModel: false
+
+[49.685] Script(C):| shouldUpdateAnim: false
+
+[49.685] Script(C):| -----------------------------
+
+[53.101] Script(S):AssignCharacter: player entity (1: player veryflammable [1]) is now character_wattson
+
+[53.101] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[53.101] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[53.101] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[53.101] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[53.101] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[53.101] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[53.102] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[53.102] Script(S):@@@@ STATS UpdateCalculatedStatCachedValue @@@@ entity (1: player veryflammable [1]) stats.num_characters_with_banners_once_filled 0
+
+[53.202] Script(C):| -------- UpdateScene --------
+
+[53.202] Script(C):| shouldUpdateModel: false
+
+[53.202] Script(C):| shouldUpdateAnim: false
+
+[53.202] Script(C):| -----------------------------
+
+[56.701] Script(C):| -------- UpdateScene --------
+
+[56.702] Script(C):| shouldUpdateModel: false
+
+[56.702] Script(C):| shouldUpdateAnim: false
+
+[56.702] Script(C):| -----------------------------
+
+[00.396] Script(C):| -------- UpdateScene --------
+
+[00.396] Script(C):| shouldUpdateModel: false
+
+[00.396] Script(C):| shouldUpdateAnim: false
+
+[00.396] Script(C):| -----------------------------
+
+[03.916] Script(C):| -------- UpdateScene --------
+
+[03.916] Script(C):| shouldUpdateModel: false
+
+[03.916] Script(C):| shouldUpdateAnim: false
+
+[03.916] Script(C):| -----------------------------
+
+[07.416] Script(C):| -------- UpdateScene --------
+
+[07.416] Script(C):| shouldUpdateModel: false
+
+[07.416] Script(C):| shouldUpdateAnim: false
+
+[07.416] Script(C):| -----------------------------
+
+[10.987] Script(C):| -------- UpdateScene --------
+
+[10.987] Script(C):| shouldUpdateModel: false
+
+[10.987] Script(C):| shouldUpdateAnim: false
+
+[10.987] Script(C):| -----------------------------
+
+[12.703] Script(C):Calling ScreenCoverTransition with endTime 108.265  at time 105.265
+
+[12.703] Script(C):1 File : sh_utility_all.gnut [199]
+    Function : DumpStack() 
+
+[12.703] Script(C):2 File : client/cl_screenfade.gnut [52]
+    Function : ScreenCoverTransition() 
+
+[12.703] Script(C):3 File : sh_character_select_new.gnut [823]
+    Function : CloseCharacterSelectMenuAtTime() 
+
+[13.916] Script(U):menu_CharacterSelectMenuNew menu closed
+
+[14.024] Script(S):Init  true
+
+[14.024] Script(S):Init  true
+
+[14.024] Script(S):Init  true
+
+[14.135] Script(S):Init  true
+
+[14.135] Script(S):Init  true
+
+[19.181] Script(S):Init  true
+
+[19.181] Script(S):Init  true
+
+[45.283] Script(C):bubble!
+
+[45.285] Script(C):StartPlayingMusic() - 'music_skyway_17_slonedies'
+
+# editor
+
+[49.933] Script(S):############################
+
+[49.933] Script(S):CodeCallback_ClientCommand() before
+
+[49.933] Script(S):player = entity (1: player veryflammable [1])
+
+[49.933] Script(S):args:
+
+[49.933] Script(S):0 : editor
+
+[49.933] Script(S):############################
+
+[58.650] Script(U):menu_SurvivalInventoryMenu menu opened
+
+[58.683] Script(S):############################
+
+[58.683] Script(S):CodeCallback_ClientCommand() before
+
+[58.683] Script(S):player = entity (1: player veryflammable [1])
+
+[58.683] Script(S):args:
+
+[58.683] Script(S):0 : BackpackOpened
+
+[58.683] Script(S):############################
+
+[59.816] Script(U):menu_DevMenu menu opened
+
+[59.833] Script(S):############################
+
+[59.833] Script(S):CodeCallback_ClientCommand() before
+
+[59.833] Script(S):player = entity (1: player veryflammable [1])
+
+[59.833] Script(S):args:
+
+[59.833] Script(S):0 : BackpackClosed
+
+[59.833] Script(S):############################
+
+[04.216] Script(U):menu_DevMenu menu closed
+
+[04.216] Script(U):menu_SurvivalInventoryMenu menu closed
+
+[04.233] Script(S):############################
+
+[04.233] Script(S):CodeCallback_ClientCommand() before
+
+[04.233] Script(S):player = entity (1: player veryflammable [1])
+
+[04.233] Script(S):args:
+
+[04.233] Script(S):0 : tgive
+
+[04.233] Script(S):1 : p
+
+[04.233] Script(S):2 : mp_weapon_wingman
+
+[04.233] Script(S):3 : optic_cq_hcog_classic
+
+[04.233] Script(S):4 : highcal_mag_l3
+
+[04.233] Script(S):############################
+
+[06.290] Script(C):Attack
+
+[06.333] Script(S):############################
+
+[06.333] Script(S):CodeCallback_ClientCommand() before
+
+[06.333] Script(S):player = entity (1: player veryflammable [1])
+
+[06.333] Script(S):args:
+
+[06.333] Script(S):0 : place
+
+[06.333] Script(S):############################
+
+[06.333] Script(S):[editor]mdl/error.rmdl;-28289.1,496.063,2575.06;0,-16.2662,0
+
+[08.168] Script(C):Attack
+
+[08.233] Script(S):############################
+
+[08.233] Script(S):CodeCallback_ClientCommand() before
+
+[08.233] Script(S):player = entity (1: player veryflammable [1])
+
+[08.233] Script(S):args:
+
+[08.233] Script(S):0 : place
+
+[08.233] Script(S):############################
+
+[08.233] Script(S):[editor]mdl/error.rmdl;-28440.1,570.782,2575.06;0,-108.523,0
+
+[09.786] Script(C):Attack
+
+[09.833] Script(S):############################
+
+[09.833] Script(S):CodeCallback_ClientCommand() before
+
+[09.833] Script(S):player = entity (1: player veryflammable [1])
+
+[09.833] Script(S):args:
+
+[09.833] Script(S):0 : place
+
+[09.833] Script(S):############################
+
+[09.833] Script(S):[editor]mdl/error.rmdl;-28343.1,775.201,2575.06;0,121.411,0
+
+[14.921] Script(C):Attack
+
+[14.984] Script(S):############################
+
+[14.984] Script(S):CodeCallback_ClientCommand() before
+
+[14.984] Script(S):player = entity (1: player veryflammable [1])
+
+[14.984] Script(S):args:
+
+[14.984] Script(S):0 : place
+
+[14.984] Script(S):############################
+
+[14.984] Script(S):[editor]mdl/error.rmdl;-28217.8,589.064,2575.06;0,12.0107,0
+
