@@ -1,4 +1,5 @@
 import argparse
+import words
 from PropData import PropData
 
 DEBUG = True
@@ -49,15 +50,16 @@ def process():
     global propsFormatted
     global debugData
 
-    propsFormatted += "void function SpawnEditorProps()\n{\n" # Respawn braces are pain peko
-    propsFormatted += "// Written by mostly fireproof. Let me know if there are any issues!\n"
+    propsFormatted += words.CREATEPROPFUNCTION
+
+    propsFormatted += words.HEADER
     for p in props:
         decoded = p.decode()
-        propsFormatted += createFRProp(decoded)
+        propsFormatted += createEditorProp(decoded)
         if DEBUG:
             debugData += (decoded + "\n")
 
-    propsFormatted += "}\n"  # closing brace, very important
+    propsFormatted += words.FOOTER
 
 
 def export():
@@ -69,9 +71,14 @@ def export():
         fOutDebug.write(debugData)
 
 
+def createEditorProp(propInfo: str) -> str:
+    """ Creates a prop """
+    return "CreateEditorProp( " + propInfo + " )\n"
+
+
 def createFRProp(propInfo: str) -> str:
     """ Creates a firing range prop """
-    return "CreateFRProp (" + propInfo + " )\n"
+    return "CreateFRProp( " + propInfo + " )\n"
 
 
 # This is where I actually run the functions

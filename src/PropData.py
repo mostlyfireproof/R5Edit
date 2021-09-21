@@ -23,7 +23,7 @@ class PropData:
         # CreateFRProp( FIRINGRANGE_QUARRY_BLOCK_ASSET, <32970, -7875+yO*i, -28780+zO*j>, <0,90,0>, true, 8000)
 
         # takes the data from the object
-        output = self.model + ", " + self.devector(self.position) + ", " + self.devector(self.angles)
+        output = "$\"" + self.model + "\", " + self.devector(self.position) + ", " + self.devector(self.angles)
         # adds on extra data for mantle (?) and draw distance
         output += ", true, 8000"
         return output
