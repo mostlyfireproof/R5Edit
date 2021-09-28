@@ -35,6 +35,7 @@ def handleInput():
     """ Reads in lines from the R5R console and finds prop data """
     for s in allCommands:
         i = s.find("[editor]")
+        r = s.find("[delete]")
         if i > 0:
             # might need to make this more robust for spawn points
             # what is error handling and input checking
@@ -43,6 +44,14 @@ def handleInput():
                 props.append(pr)
             except:
                 print("Invalid input: " + s)
+
+        elif r > 0:
+            try:
+                toRemove = PropData(s[i+8:])
+                props.remove(toRemove)
+            except:
+                print("Problem removing: " + s)
+
 
 
 def process():
@@ -73,7 +82,7 @@ def export():
 
 def createEditorProp(propInfo: str) -> str:
     """ Creates a prop """
-    return "CreateEditorProp( " + propInfo + " )\n"
+    return "    CreateEditorProp( " + propInfo + " )\n"
 
 
 def createFRProp(propInfo: str) -> str:

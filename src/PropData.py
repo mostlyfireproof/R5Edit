@@ -19,9 +19,6 @@ class PropData:
 
     def decode(self) -> str:
         """ Turns the data in the class in to a string that the engine can take """
-        # from firing_range.gnut:931
-        # CreateFRProp( FIRINGRANGE_QUARRY_BLOCK_ASSET, <32970, -7875+yO*i, -28780+zO*j>, <0,90,0>, true, 8000)
-
         # takes the data from the object
         output = "$\"" + self.model + "\", " + self.devector(self.position) + ", " + self.devector(self.angles)
         # adds on extra data for mantle (?) and draw distance
@@ -30,6 +27,5 @@ class PropData:
 
     def devector(self, string: list) -> str:
         """ Turns a stringified vector back in to numbers """
-        # talk to Peb about leaving the <>s in?
         output = "<" + string[0] + "," + string[1] + "," + string[2] + ">"
         return output

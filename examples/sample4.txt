@@ -1,0 +1,474 @@
+[52.706] Script(C):Playing Dialogue - 'bc_tactical'#0 -> 'diag_mp_gibraltar_bc_tactical_1p', priority:30, from:'datatable/battle_chatter_dialogue.rpak'
+
+[52.809] Script(C):New loc ping  -  wpent #479, pingType #42, ticketID #-1, target: 'entity (476: dynamicprop [476])'
+
+[53.201] Script(C):bubble!
+
+[53.355] Script(U):menu_SurvivalInventoryMenu menu opened
+
+[53.367] Script(S):############################
+
+[53.367] Script(S):CodeCallback_ClientCommand() before
+
+[53.368] Script(S):player = entity (1: player veryflammable [1])
+
+[53.368] Script(S):args:
+
+[53.368] Script(S):0 : BackpackOpened
+
+[53.368] Script(S):############################
+
+[53.620] Script(S):############################
+
+[53.620] Script(S):CodeCallback_ClientCommand() before
+
+[53.620] Script(S):player = entity (1: player veryflammable [1])
+
+[53.620] Script(S):args:
+
+[53.620] Script(S):0 : DialogueFinishedForID
+
+[53.620] Script(S):1 : 379
+
+[53.621] Script(S):############################
+
+[53.994] Script(U):menu_DevMenu menu opened
+
+[54.008] Script(S):############################
+
+[54.008] Script(S):CodeCallback_ClientCommand() before
+
+[54.008] Script(S):player = entity (1: player veryflammable [1])
+
+[54.008] Script(S):args:
+
+[54.008] Script(S):0 : BackpackClosed
+
+[54.008] Script(S):############################
+
+[56.151] Script(U):menu_DevMenu menu closed
+
+[56.151] Script(U):menu_SurvivalInventoryMenu menu closed
+
+[59.076] Script(U):menu_SurvivalInventoryMenu menu opened
+
+[59.112] Script(S):############################
+
+[59.112] Script(S):CodeCallback_ClientCommand() before
+
+[59.113] Script(S):player = entity (1: player veryflammable [1])
+
+[59.113] Script(S):args:
+
+[59.113] Script(S):0 : BackpackOpened
+
+[59.113] Script(S):############################
+
+[59.481] Script(U):menu_SurvivalInventoryMenu menu closed
+
+[59.509] Script(S):############################
+
+[59.509] Script(S):CodeCallback_ClientCommand() before
+
+[59.509] Script(S):player = entity (1: player veryflammable [1])
+
+[59.509] Script(S):args:
+
+[59.509] Script(S):0 : BackpackClosed
+
+[59.509] Script(S):############################
+
+[04.669] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;8576,27200,4928;0,-90,0
+
+[07.814] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;8576,26944,4928;0,-90,0
+
+[07.926] Script(C):ClientPakFile_Unload: gcard_frame_gibraltar_common_01.rpak
+
+[10.961] Script(S):############################
+
+[10.961] Script(S):CodeCallback_ClientCommand() before
+
+[10.962] Script(S):player = entity (1: player veryflammable [1])
+
+[10.962] Script(S):args:
+
+[10.962] Script(S):0 : moveUp
+
+[10.962] Script(S):############################
+
+[10.962] Script(S):moving up 64
+
+[10.962] Script(S):############################
+
+[10.962] Script(S):CodeCallback_ClientCommand() before
+
+[10.962] Script(S):player = entity (1: player veryflammable [1])
+
+[10.962] Script(S):args:
+
+[10.962] Script(S):0 : PlayerSwitchedWeapons
+
+[10.962] Script(S):1 : 0
+
+[10.962] Script(S):############################
+
+[12.511] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;8576,26688,4992;0,0,0
+
+[14.621] Script(S):mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl
+
+[14.721] Script(C):mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl
+
+[16.063] Script(S):############################
+
+[16.063] Script(S):CodeCallback_ClientCommand() before
+
+[16.063] Script(S):player = entity (1: player veryflammable [1])
+
+[16.063] Script(S):args:
+
+[16.063] Script(S):0 : moveDown
+
+[16.063] Script(S):############################
+
+[16.063] Script(S):moving down 0
+
+[16.063] Script(S):############################
+
+[16.064] Script(S):CodeCallback_ClientCommand() before
+
+[16.064] Script(S):player = entity (1: player veryflammable [1])
+
+[16.064] Script(S):args:
+
+[16.064] Script(S):0 : PlayerSwitchedWeapons
+
+[16.064] Script(S):1 : 1
+
+[16.064] Script(S):############################
+
+[16.714] Script(S):[editor]mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl;8448,27200,4928;0,-90,0
+
+[19.216] Script(S):[editor]mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl;8448,26944,4928;0,-90,0
+
+[21.709] Script(S):############################
+
+[21.709] Script(S):CodeCallback_ClientCommand() before
+
+[21.709] Script(S):player = entity (1: player veryflammable [1])
+
+[21.709] Script(S):args:
+
+[21.709] Script(S):0 : moveDown
+
+[21.710] Script(S):############################
+
+[21.710] Script(S):moving down -64
+
+[21.710] Script(S):############################
+
+[21.710] Script(S):CodeCallback_ClientCommand() before
+
+[21.710] Script(S):player = entity (1: player veryflammable [1])
+
+[21.710] Script(S):args:
+
+[21.710] Script(S):0 : PlayerSwitchedWeapons
+
+[21.710] Script(S):1 : 1
+
+[21.710] Script(S):############################
+
+[21.813] Script(S):############################
+
+[21.813] Script(S):CodeCallback_ClientCommand() before
+
+[21.814] Script(S):player = entity (1: player veryflammable [1])
+
+[21.814] Script(S):args:
+
+[21.814] Script(S):0 : moveDown
+
+[21.814] Script(S):############################
+
+[21.814] Script(S):moving down -128
+
+[21.814] Script(S):############################
+
+[21.815] Script(S):CodeCallback_ClientCommand() before
+
+[21.815] Script(S):player = entity (1: player veryflammable [1])
+
+[21.815] Script(S):args:
+
+[21.815] Script(S):0 : PlayerSwitchedWeapons
+
+[21.815] Script(S):1 : 1
+
+[21.815] Script(S):############################
+
+[22.221] Script(S):############################
+
+[22.221] Script(S):CodeCallback_ClientCommand() before
+
+[22.222] Script(S):player = entity (1: player veryflammable [1])
+
+[22.222] Script(S):args:
+
+[22.222] Script(S):0 : moveDown
+
+[22.222] Script(S):############################
+
+[22.222] Script(S):moving down -192
+
+[22.222] Script(S):############################
+
+[22.222] Script(S):CodeCallback_ClientCommand() before
+
+[22.222] Script(S):player = entity (1: player veryflammable [1])
+
+[22.222] Script(S):args:
+
+[22.223] Script(S):0 : PlayerSwitchedWeapons
+
+[22.223] Script(S):1 : 1
+
+[22.223] Script(S):############################
+
+[23.257] Script(S):[editor]mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl;8576,26816,4736;0,0,0
+
+[40.668] Script(S):mdl/Humans/class/medium/combat_dummie_medium.rmdl
+
+[40.750] Script(C):mdl/Humans/class/medium/combat_dummie_medium.rmdl
+
+[41.267] Script(S):mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl
+
+[41.352] Script(C):mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl
+
+[42.664] Script(S):############################
+
+[42.664] Script(S):CodeCallback_ClientCommand() before
+
+[42.665] Script(S):player = entity (1: player veryflammable [1])
+
+[42.665] Script(S):args:
+
+[42.665] Script(S):0 : moveUp
+
+[42.665] Script(S):############################
+
+[42.665] Script(S):moving up -128
+
+[42.665] Script(S):############################
+
+[42.665] Script(S):CodeCallback_ClientCommand() before
+
+[42.665] Script(S):player = entity (1: player veryflammable [1])
+
+[42.666] Script(S):args:
+
+[42.666] Script(S):0 : PlayerSwitchedWeapons
+
+[42.666] Script(S):1 : 0
+
+[42.666] Script(S):############################
+
+[42.959] Script(S):############################
+
+[42.959] Script(S):CodeCallback_ClientCommand() before
+
+[42.959] Script(S):player = entity (1: player veryflammable [1])
+
+[42.959] Script(S):args:
+
+[42.959] Script(S):0 : moveUp
+
+[42.959] Script(S):############################
+
+[42.959] Script(S):moving up -64
+
+[42.959] Script(S):############################
+
+[42.960] Script(S):CodeCallback_ClientCommand() before
+
+[42.960] Script(S):player = entity (1: player veryflammable [1])
+
+[42.960] Script(S):args:
+
+[42.960] Script(S):0 : PlayerSwitchedWeapons
+
+[42.960] Script(S):1 : 0
+
+[42.960] Script(S):############################
+
+[43.417] Script(S):############################
+
+[43.417] Script(S):CodeCallback_ClientCommand() before
+
+[43.417] Script(S):player = entity (1: player veryflammable [1])
+
+[43.418] Script(S):args:
+
+[43.418] Script(S):0 : moveUp
+
+[43.418] Script(S):############################
+
+[43.418] Script(S):moving up 0
+
+[43.418] Script(S):############################
+
+[43.418] Script(S):CodeCallback_ClientCommand() before
+
+[43.418] Script(S):player = entity (1: player veryflammable [1])
+
+[43.418] Script(S):args:
+
+[43.418] Script(S):0 : PlayerSwitchedWeapons
+
+[43.418] Script(S):1 : 0
+
+[43.418] Script(S):############################
+
+[44.221] Script(S):############################
+
+[44.221] Script(S):CodeCallback_ClientCommand() before
+
+[44.221] Script(S):player = entity (1: player veryflammable [1])
+
+[44.221] Script(S):args:
+
+[44.221] Script(S):0 : moveUp
+
+[44.221] Script(S):############################
+
+[44.222] Script(S):moving up 64
+
+[44.222] Script(S):############################
+
+[44.222] Script(S):CodeCallback_ClientCommand() before
+
+[44.222] Script(S):player = entity (1: player veryflammable [1])
+
+[44.222] Script(S):args:
+
+[44.222] Script(S):0 : PlayerSwitchedWeapons
+
+[44.222] Script(S):1 : 0
+
+[44.222] Script(S):############################
+
+[46.765] Script(S):############################
+
+[46.765] Script(S):CodeCallback_ClientCommand() before
+
+[46.765] Script(S):player = entity (1: player veryflammable [1])
+
+[46.765] Script(S):args:
+
+[46.765] Script(S):0 : ChangeRotation
+
+[46.765] Script(S):1 : 30
+
+[46.765] Script(S):############################
+
+[46.766] Script(S):30
+
+[52.518] Script(S):############################
+
+[52.518] Script(S):CodeCallback_ClientCommand() before
+
+[52.519] Script(S):player = entity (1: player veryflammable [1])
+
+[52.519] Script(S):args:
+
+[52.519] Script(S):0 : moveDown
+
+[52.519] Script(S):############################
+
+[52.519] Script(S):moving down 0
+
+[52.519] Script(S):############################
+
+[52.519] Script(S):CodeCallback_ClientCommand() before
+
+[52.519] Script(S):player = entity (1: player veryflammable [1])
+
+[52.519] Script(S):args:
+
+[52.519] Script(S):0 : PlayerSwitchedWeapons
+
+[52.520] Script(S):1 : 1
+
+[52.520] Script(S):############################
+
+[52.961] Script(S):############################
+
+[52.961] Script(S):CodeCallback_ClientCommand() before
+
+[52.962] Script(S):player = entity (1: player veryflammable [1])
+
+[52.962] Script(S):args:
+
+[52.962] Script(S):0 : moveDown
+
+[52.962] Script(S):############################
+
+[52.962] Script(S):moving down -64
+
+[52.962] Script(S):############################
+
+[52.962] Script(S):CodeCallback_ClientCommand() before
+
+[52.962] Script(S):player = entity (1: player veryflammable [1])
+
+[52.962] Script(S):args:
+
+[52.962] Script(S):0 : PlayerSwitchedWeapons
+
+[52.963] Script(S):1 : 1
+
+[52.963] Script(S):############################
+
+[57.161] Script(S):############################
+
+[57.161] Script(S):CodeCallback_ClientCommand() before
+
+[57.162] Script(S):player = entity (1: player veryflammable [1])
+
+[57.162] Script(S):args:
+
+[57.162] Script(S):0 : noclip
+
+[57.162] Script(S):############################
+
+[03.513] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;8768,27200,4864;0,90,30
+
+[14.013] Script(S):############################
+
+[14.013] Script(S):CodeCallback_ClientCommand() before
+
+[14.014] Script(S):player = entity (1: player veryflammable [1])
+
+[14.014] Script(S):args:
+
+[14.014] Script(S):0 : moveUp
+
+[14.014] Script(S):############################
+
+[14.014] Script(S):moving up 0
+
+[14.014] Script(S):############################
+
+[14.014] Script(S):CodeCallback_ClientCommand() before
+
+[14.014] Script(S):player = entity (1: player veryflammable [1])
+
+[14.014] Script(S):args:
+
+[14.015] Script(S):0 : PlayerSwitchedWeapons
+
+[14.015] Script(S):1 : 0
+
+[14.015] Script(S):############################
+
+[14.711] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;8768,27200,4928;0,90,30
+

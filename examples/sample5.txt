@@ -1,0 +1,314 @@
+[39.953] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;9216,27008,4928;0,0,0
+
+[41.257] Script(S):############################
+
+[41.257] Script(S):CodeCallback_ClientCommand() before
+
+[41.257] Script(S):player = entity (1: player veryflammable [1])
+
+[41.257] Script(S):args:
+
+[41.257] Script(S):0 : moveUp
+
+[41.257] Script(S):############################
+
+[41.257] Script(S):moving up 64
+
+[41.258] Script(S):############################
+
+[41.258] Script(S):CodeCallback_ClientCommand() before
+
+[41.258] Script(S):player = entity (1: player veryflammable [1])
+
+[41.258] Script(S):args:
+
+[41.258] Script(S):0 : PlayerSwitchedWeapons
+
+[41.258] Script(S):1 : 0
+
+[41.258] Script(S):############################
+
+[42.903] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;9152,26944,4992;0,0,0
+
+[45.600] Script(S):############################
+
+[45.600] Script(S):CodeCallback_ClientCommand() before
+
+[45.601] Script(S):player = entity (1: player veryflammable [1])
+
+[45.601] Script(S):args:
+
+[45.601] Script(S):0 : moveDown
+
+[45.601] Script(S):############################
+
+[45.601] Script(S):moving down 0
+
+[45.601] Script(S):############################
+
+[45.601] Script(S):CodeCallback_ClientCommand() before
+
+[45.602] Script(S):player = entity (1: player veryflammable [1])
+
+[45.602] Script(S):args:
+
+[45.602] Script(S):0 : PlayerSwitchedWeapons
+
+[45.602] Script(S):1 : 1
+
+[45.602] Script(S):############################
+
+[46.452] Script(S):############################
+
+[46.452] Script(S):CodeCallback_ClientCommand() before
+
+[46.453] Script(S):player = entity (1: player veryflammable [1])
+
+[46.453] Script(S):args:
+
+[46.453] Script(S):0 : moveUp
+
+[46.453] Script(S):############################
+
+[46.453] Script(S):moving up 64
+
+[46.453] Script(S):############################
+
+[46.453] Script(S):CodeCallback_ClientCommand() before
+
+[46.454] Script(S):player = entity (1: player veryflammable [1])
+
+[46.454] Script(S):args:
+
+[46.454] Script(S):0 : PlayerSwitchedWeapons
+
+[46.454] Script(S):1 : 0
+
+[46.454] Script(S):############################
+
+[48.603] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;9152,26944,5248;0,-90,0
+
+[53.148] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;9152,27200,5248;0,180,0
+
+[58.157] Script(S):############################
+
+[58.158] Script(S):CodeCallback_ClientCommand() before
+
+[58.158] Script(S):player = entity (1: player veryflammable [1])
+
+[58.158] Script(S):args:
+
+[58.158] Script(S):0 : moveUp
+
+[58.158] Script(S):############################
+
+[58.158] Script(S):moving up 128
+
+[58.158] Script(S):############################
+
+[58.158] Script(S):CodeCallback_ClientCommand() before
+
+[58.158] Script(S):player = entity (1: player veryflammable [1])
+
+[58.159] Script(S):args:
+
+[58.159] Script(S):0 : PlayerSwitchedWeapons
+
+[58.159] Script(S):1 : 0
+
+[58.159] Script(S):############################
+
+[58.748] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;9408,27200,5248;0,90,0
+
+[00.861] Script(S):mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl
+
+[00.947] Script(C):mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl
+
+[03.904] Script(S):############################
+
+[03.904] Script(S):CodeCallback_ClientCommand() before
+
+[03.905] Script(S):player = entity (1: player veryflammable [1])
+
+[03.905] Script(S):args:
+
+[03.905] Script(S):0 : moveDown
+
+[03.905] Script(S):############################
+
+[03.905] Script(S):moving down 64
+
+[03.905] Script(S):############################
+
+[03.905] Script(S):CodeCallback_ClientCommand() before
+
+[03.905] Script(S):player = entity (1: player veryflammable [1])
+
+[03.905] Script(S):args:
+
+[03.905] Script(S):0 : PlayerSwitchedWeapons
+
+[03.905] Script(S):1 : 1
+
+[03.905] Script(S):############################
+
+[04.151] Script(S):############################
+
+[04.151] Script(S):CodeCallback_ClientCommand() before
+
+[04.152] Script(S):player = entity (1: player veryflammable [1])
+
+[04.152] Script(S):args:
+
+[04.152] Script(S):0 : moveDown
+
+[04.152] Script(S):############################
+
+[04.152] Script(S):moving down 0
+
+[04.152] Script(S):############################
+
+[04.152] Script(S):CodeCallback_ClientCommand() before
+
+[04.152] Script(S):player = entity (1: player veryflammable [1])
+
+[04.152] Script(S):args:
+
+[04.152] Script(S):0 : PlayerSwitchedWeapons
+
+[04.152] Script(S):1 : 1
+
+[04.152] Script(S):############################
+
+[04.754] Script(S):############################
+
+[04.754] Script(S):CodeCallback_ClientCommand() before
+
+[04.755] Script(S):player = entity (1: player veryflammable [1])
+
+[04.755] Script(S):args:
+
+[04.755] Script(S):0 : moveDown
+
+[04.755] Script(S):############################
+
+[04.755] Script(S):moving down -64
+
+[04.755] Script(S):############################
+
+[04.755] Script(S):CodeCallback_ClientCommand() before
+
+[04.755] Script(S):player = entity (1: player veryflammable [1])
+
+[04.755] Script(S):args:
+
+[04.755] Script(S):0 : PlayerSwitchedWeapons
+
+[04.755] Script(S):1 : 1
+
+[04.755] Script(S):############################
+
+[06.601] Script(S):[editor]mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl;9600,27072,4864;0,0,0
+
+[18.603] Script(S):[delete]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;9152,27200,5248;0,180,0
+
+[24.653] Script(S):[editor]mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl;9472,27648,4800;0,180,0
+
+[25.554] Script(S):############################
+
+[25.554] Script(S):CodeCallback_ClientCommand() before
+
+[25.555] Script(S):player = entity (1: player veryflammable [1])
+
+[25.555] Script(S):args:
+
+[25.555] Script(S):0 : moveDown
+
+[25.555] Script(S):############################
+
+[25.555] Script(S):moving down -128
+
+[25.555] Script(S):############################
+
+[25.555] Script(S):CodeCallback_ClientCommand() before
+
+[25.556] Script(S):player = entity (1: player veryflammable [1])
+
+[25.556] Script(S):args:
+
+[25.556] Script(S):0 : PlayerSwitchedWeapons
+
+[25.556] Script(S):1 : 1
+
+[25.556] Script(S):############################
+
+[25.952] Script(S):[editor]mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl;9408,27584,4672;0,180,0
+
+[27.099] Script(S):mdl/Humans/class/medium/combat_dummie_medium.rmdl
+
+[27.184] Script(C):mdl/Humans/class/medium/combat_dummie_medium.rmdl
+
+[28.299] Script(S):mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl
+
+[28.396] Script(C):mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl
+
+[29.101] Script(S):############################
+
+[29.101] Script(S):CodeCallback_ClientCommand() before
+
+[29.102] Script(S):player = entity (1: player veryflammable [1])
+
+[29.102] Script(S):args:
+
+[29.102] Script(S):0 : moveUp
+
+[29.102] Script(S):############################
+
+[29.102] Script(S):moving up -64
+
+[29.102] Script(S):############################
+
+[29.102] Script(S):CodeCallback_ClientCommand() before
+
+[29.102] Script(S):player = entity (1: player veryflammable [1])
+
+[29.102] Script(S):args:
+
+[29.102] Script(S):0 : PlayerSwitchedWeapons
+
+[29.102] Script(S):1 : 0
+
+[29.102] Script(S):############################
+
+[29.808] Script(S):############################
+
+[29.808] Script(S):CodeCallback_ClientCommand() before
+
+[29.808] Script(S):player = entity (1: player veryflammable [1])
+
+[29.808] Script(S):args:
+
+[29.808] Script(S):0 : moveUp
+
+[29.808] Script(S):############################
+
+[29.809] Script(S):moving up 0
+
+[29.809] Script(S):############################
+
+[29.809] Script(S):CodeCallback_ClientCommand() before
+
+[29.809] Script(S):player = entity (1: player veryflammable [1])
+
+[29.809] Script(S):args:
+
+[29.809] Script(S):0 : PlayerSwitchedWeapons
+
+[29.809] Script(S):1 : 0
+
+[29.809] Script(S):############################
+
+[30.453] Script(S):[editor]mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl;9408,27456,4864;0,-90,0
+
+[33.151] Script(S):[delete]mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl;9408,27584,4672;0,180,0
+
