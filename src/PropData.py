@@ -1,6 +1,8 @@
 class PropData:
     ''' Represents the data for a prop in Apex Legends'''
     def __init__(self, string:str):
+        self.myHash = hash(string)
+
         cutoff = string.find(";")
         mdl = string[:cutoff]
         string = string[cutoff + 1:]
@@ -29,3 +31,7 @@ class PropData:
         """ Turns a stringified vector back in to numbers """
         output = "<" + string[0] + "," + string[1] + "," + string[2] + ">"
         return output
+
+    def getHash(self) -> int:
+        """ Just returns the hash, makes it easier to compare props """
+        return self.myHash

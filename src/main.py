@@ -21,13 +21,19 @@ if DEBUG:
     fOutDebug = open("../examples/dbg.txt", "w")
 
 allCommands = fIn.readlines()
-props = []
+props = {}
 propsFormatted = ""
 
 
 def printls(ls):
     """ Just prints each element of a list """
     for i in ls:
+        print(i)
+
+
+def printdict(d):
+    """ Just prints each element of a dictionary """
+    for i in d:
         print(i)
 
 
@@ -41,14 +47,14 @@ def handleInput():
             # what is error handling and input checking
             try:
                 pr = PropData(s[i+8:])
-                props.append(pr)
+                props[pr.getHash()] = pr
             except:
                 print("Invalid input: " + s)
 
         elif r > 0:
             try:
-                toRemove = PropData(s[i+8:])
-                props.remove(toRemove)
+                toRemove = s[r+8:]
+                del props[hash(toRemove)]
             except:
                 print("Problem removing: " + s)
 
@@ -62,7 +68,7 @@ def process():
     propsFormatted += words.CREATEPROPFUNCTION
 
     propsFormatted += words.HEADER
-    for p in props:
+    for p in props.values():
         decoded = p.decode()
         propsFormatted += createEditorProp(decoded)
         if DEBUG:
@@ -74,10 +80,12 @@ def process():
 def export():
     """ Exports the props to a functional Apex Legends map
         (not complete yet) """
-    printls(props)
+    printdict(props)
     fOutSqrrl.write(propsFormatted)
     if DEBUG:
         fOutDebug.write(debugData)
+
+    print("--------------\nSuccess!")
 
 
 def createEditorProp(propInfo: str) -> str:
