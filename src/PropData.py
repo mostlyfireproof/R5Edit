@@ -24,7 +24,7 @@ class PropData:
         self.model = mdl
         self.position = pos.split(",")
         self.angles = angle.split(",")
-        self.realm = 1
+        self.realm = -1
 
     def decode(self) -> str:
         """ Turns the data in the class in to a string that the engine can take """
