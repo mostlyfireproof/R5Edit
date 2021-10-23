@@ -9,7 +9,7 @@ A tool to build maps out of props in the Apex Legends mod, R5Reloaded
 3. [Get the prop spawner tool](https://github.com/mostlyfireproof/scripts_r5/tree/SalEditor)
 4. In the dev menu, click on the editor menu and start editing
 5. Place objects
-6. Copy the logs when you want to save 
+6. Copy the logs when you want to save \([Example](https://cdn.upload.systems/uploads/3rsUNfag.png)\)
 7. Paste the logs in to a text file and save it
 8. Run `main.py` and specify the input and output files to use
    1. For example, `python3 main.py ../examples/sample1.txt ../examples/out1.nut` will parse the included sample1 file
