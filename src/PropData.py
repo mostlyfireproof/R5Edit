@@ -21,10 +21,16 @@ class PropData:
         angle = string[:cutoff]
         string = string[cutoff + 1:]
 
+        cutoff = string.find(";")
+        realm = string[:cutoff]
+        string = string[cutoff + 1:]
+
+        realm = "-1"
+
         self.model = mdl
         self.position = pos.split(",")
         self.angles = angle.split(",")
-        self.realm = -1
+        self.realm = realm
 
     def decode(self) -> str:
         """ Turns the data in the class in to a string that the engine can take """
@@ -32,7 +38,7 @@ class PropData:
         output = "$\"" + self.model + "\", " + self.devector(self.position) + ", " + self.devector(self.angles)
         # adds on extra data for mantle (?) and draw distance
         output += ", true, 8000"
-        output += ", " + str(self.realm)
+        output += ", " + self.realm
         return output
 
     def devector(self, string: list) -> str:

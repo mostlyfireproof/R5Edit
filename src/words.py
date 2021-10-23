@@ -5,16 +5,22 @@ CREATEPROPFUNCTION = '''
 entity function CreateEditorProp(asset a, vector pos, vector ang, bool mantle = false, float fade = 2000, 
 int realm = -1)
 {
-	entity e = CreatePropDynamic(a,pos,ang,SOLID_VPHYSICS,fade)
-	e.kv.fadedist = fade
-	if(mantle) e.AllowMantle()
-	
-	if (realm > -1) {
-	    e.RemoveFromAllRealms()
-	    e.AddToRealm(realm)
-	}
-	
-	return e
+    entity e = CreatePropDynamic(a,pos,ang,SOLID_VPHYSICS,fade)
+    e.kv.fadedist = fade
+    if(mantle) e.AllowMantle()
+
+    if (realm > -1) {
+        e.RemoveFromAllRealms()
+        e.AddToRealm(realm)
+    }
+
+    string positionSerialized = pos.x.tostring() + "," + pos.y.tostring() + "," + pos.z.tostring()
+    string anglesSerialized = ang.x.tostring() + "," + ang.y.tostring() + "," + ang.z.tostring()
+
+    e.SetScriptName("editor_placed_prop")
+    printl("[editor]" + string(a) + ";" + positionSerialized + ";" + anglesSerialized + ";" + realm)
+
+    return e
 }
 #endif
 
@@ -74,6 +80,7 @@ HEADER = '''
 void function SpawnEditorProps()
 {
     // Written by mostly fireproof. Let me know if there are any issues!
+    printl("---- NEW EDITOR DATA ----")
 '''
 
 FOOTER = '''

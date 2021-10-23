@@ -39,6 +39,15 @@ def printdict(d):
 
 def handleInput():
     """ Reads in lines from the R5R console and finds prop data """
+    # error handling in case of failed load
+    lastBootUp = 0
+    for i in reversed(allCommands):
+        if (i.find("NEW EDITOR DATA") > -1):
+            lastBootUp = allCommands.index(i)
+            break
+    print("LINE: " + str(lastBootUp))
+
+    # process every command
     for s in allCommands:
         i = s.find("[editor]")      # placing objects
         r = s.find("[delete]")      # deleting objects
