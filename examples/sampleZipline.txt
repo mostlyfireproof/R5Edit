@@ -1,0 +1,62 @@
+[12.151] Script(C):ClientPakFile_Unload: gcard_frame_pathfinder_common_01.rpak
+
+[18.989] Script(S):[zipline][1]<9373.31543, 27174.6816, 4896.00439>
+
+[19.085] Script(C):Playing Dialogue - 'bc_super'#0 -> 'diag_mp_pathfinder_bc_super_1p', priority:30, from:'datatable/battle_chatter_dialogue.rpak'
+
+[19.142] Script(S):[zipline][2]<7751.92139, 26141.7285, 5911.56543>
+
+[23.047] Script(S):############################
+
+[23.047] Script(S):CodeCallback_ClientCommand() before
+
+[23.047] Script(S):player = entity (1: player veryflammable [1])
+
+[23.047] Script(S):args:
+
+[23.048] Script(S):0 : DialogueFinishedForID
+
+[23.048] Script(S):1 : 380
+
+[23.048] Script(S):############################
+
+[28.747] Script(S):[zipline][1]<7437.22363, 26179.9922, 5864.03125>
+
+[28.849] Script(C):Playing Dialogue - 'bc_super'#0 -> 'diag_mp_pathfinder_bc_super_1p', priority:30, from:'datatable/battle_chatter_dialogue.rpak'
+
+[29.247] Script(S):[zipline][2]<6982.29883, 32204.6426, 5520.74121>
+
+[32.439] Script(S):############################
+
+[32.439] Script(S):CodeCallback_ClientCommand() before
+
+[32.440] Script(S):player = entity (1: player veryflammable [1])
+
+[32.440] Script(S):args:
+
+[32.440] Script(S):0 : DialogueFinishedForID
+
+[32.440] Script(S):1 : 380
+
+[32.440] Script(S):############################
+
+[45.288] Script(S):[zipline][1]<7629.35986, 26336.4863, 5871.96631>
+
+[45.383] Script(C):Playing Dialogue - 'bc_super'#0 -> 'diag_mp_pathfinder_bc_super_1p', priority:30, from:'datatable/battle_chatter_dialogue.rpak'
+
+[45.445] Script(S):[zipline][2]<9427.5625, 26701.6094, 5131.75244>
+
+[46.831] Script(S):############################
+
+[46.831] Script(S):CodeCallback_ClientCommand() before
+
+[46.832] Script(S):player = entity (1: player veryflammable [1])
+
+[46.832] Script(S):args:
+
+[46.832] Script(S):0 : DialogueFinishedForID
+
+[46.832] Script(S):1 : 380
+
+[46.833] Script(S):############################
+

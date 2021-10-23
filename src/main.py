@@ -40,8 +40,10 @@ def printdict(d):
 def handleInput():
     """ Reads in lines from the R5R console and finds prop data """
     for s in allCommands:
-        i = s.find("[editor]")
-        r = s.find("[delete]")
+        i = s.find("[editor]")      # placing objects
+        r = s.find("[delete]")      # deleting objects
+        z = s.find("[zip]")         # placing ziplines
+        p = s.find("[pickup]")      # placing pickups (grenades, weapons)
         if i > 0:
             # might need to make this more robust for spawn points
             # what is error handling and input checking
@@ -58,6 +60,13 @@ def handleInput():
             except:
                 print("Problem removing: " + s)
 
+        elif z > 0:
+            try:
+                pr = PropData(s[z+5:])
+                props[pr.getHash()] = pr
+            except:
+                print("Invalid input: " + s)
+
 
 
 def process():
@@ -66,6 +75,7 @@ def process():
     global debugData
 
     propsFormatted += words.CREATEPROPFUNCTION
+    # propsFormatted += words.CREATEZIPLINEFUNCTION
 
     propsFormatted += words.HEADER
     for p in props.values():

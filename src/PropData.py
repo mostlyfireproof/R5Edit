@@ -1,6 +1,12 @@
+# lets you move all the props by a bit
+OFFSETX = 0
+OFFSETY = 0
+OFFSETZ = 0
+
+
 class PropData:
     ''' Represents the data for a prop in Apex Legends'''
-    def __init__(self, string:str):
+    def __init__(self, string: str):
         self.myHash = hash(string)
 
         cutoff = string.find(";")
@@ -18,6 +24,7 @@ class PropData:
         self.model = mdl
         self.position = pos.split(",")
         self.angles = angle.split(",")
+        self.realm = 1
 
     def decode(self) -> str:
         """ Turns the data in the class in to a string that the engine can take """
@@ -25,6 +32,7 @@ class PropData:
         output = "$\"" + self.model + "\", " + self.devector(self.position) + ", " + self.devector(self.angles)
         # adds on extra data for mantle (?) and draw distance
         output += ", true, 8000"
+        output += ", " + str(self.realm)
         return output
 
     def devector(self, string: list) -> str:
