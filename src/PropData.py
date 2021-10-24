@@ -21,11 +21,11 @@ class PropData:
         angle = string[:cutoff]
         string = string[cutoff + 1:]
 
-        cutoff = string.find(";")
-        realm = string[:cutoff]
-        string = string[cutoff + 1:]
-
+        # handles realm and maintains backwards compatibility
         realm = "-1"
+        cutoff = string.find(";")
+        if cutoff > -1:
+            realm = string[:cutoff]
 
         self.model = mdl
         self.position = pos.split(",")

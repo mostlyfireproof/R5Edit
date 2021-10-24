@@ -18,6 +18,7 @@ int realm = -1)
     string anglesSerialized = ang.x.tostring() + "," + ang.y.tostring() + "," + ang.z.tostring()
 
     e.SetScriptName("editor_placed_prop")
+    e.e.gameModeId = realm
     printl("[editor]" + string(a) + ";" + positionSerialized + ";" + anglesSerialized + ";" + realm)
 
     return e
