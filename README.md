@@ -1,4 +1,4 @@
-# R5R Map Editor
+# R5Edit
 
 A tool to build maps out of props in the Apex Legends mod, R5Reloaded
 
