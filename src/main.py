@@ -2,8 +2,6 @@ import argparse
 import words
 from PropData import PropData
 
-DEBUG = False
-
 # Sets up argparse
 parser = argparse.ArgumentParser(description='Creates a map from prop data')
 parser.add_argument('input', metavar='input', type=str, help='R5R log output in a file')
@@ -14,11 +12,6 @@ args = parser.parse_args()
 # Opens files
 fIn = open(args.input, "r")
 fOutSqrrl = open(args.output, "w")
-
-debugData = ""
-# print to a debug file while i'm testing
-if DEBUG:
-    fOutDebug = open("../examples/dbg.txt", "w")
 
 allCommands = fIn.readlines()
 props = {}
@@ -81,7 +74,6 @@ def handleInput():
 def process():
     """ Processes the stuff """
     global propsFormatted
-    global debugData
 
     propsFormatted += words.CREATEPROPFUNCTION
     # propsFormatted += words.CREATEZIPLINEFUNCTION
@@ -90,8 +82,6 @@ def process():
     for p in props.values():
         decoded = p.decode()
         propsFormatted += createEditorProp(decoded)
-        if DEBUG:
-            debugData += (decoded + "\n")
 
     propsFormatted += words.FOOTER
 
@@ -101,8 +91,6 @@ def export():
         (not complete yet) """
     printdict(props)
     fOutSqrrl.write(propsFormatted)
-    if DEBUG:
-        fOutDebug.write(debugData)
 
     print("--------------\nSuccess!")
 
@@ -112,11 +100,6 @@ def createEditorProp(propInfo: str) -> str:
     return "    CreateEditorProp( " + propInfo + " )\n"
 
 
-def createFRProp(propInfo: str) -> str:
-    """ Creates a firing range prop """
-    return "CreateFRProp( " + propInfo + " )\n"
-
-
 # This is where I actually run the functions
 handleInput()
 process()
@@ -124,6 +107,3 @@ export()
 
 fIn.close()
 fOutSqrrl.close()
-if DEBUG:
-    fOutDebug.close()
-
