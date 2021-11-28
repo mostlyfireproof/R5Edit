@@ -1,5 +1,4 @@
 import argparse
-import words
 from PropData import PropData
 
 # Sets up argparse
@@ -17,6 +16,16 @@ allCommands = fIn.readlines()
 props = {}
 propsFormatted = ""
 
+HEADER = '''void function SpawnEditorProps()
+{
+    // Written by mostly fireproof. Let me know if there are any issues!
+    printl("---- NEW EDITOR DATA ----")
+'''
+
+FOOTER = '''
+}
+#endif
+'''
 
 def printls(ls):
     """ Just prints each element of a list """
@@ -35,13 +44,13 @@ def handleInput():
     # error handling in case of failed load
     lastBootUp = 0
     for i in reversed(allCommands):
-        if (i.find("NEW EDITOR DATA") > -1):
+        if i.find("NEW EDITOR DATA") > -1:
             lastBootUp = allCommands.index(i)
             break
     print("LINE: " + str(lastBootUp))
 
     # process every command
-    for s in allCommands:
+    for s in allCommands[lastBootUp:]:
         i = s.find("[editor]")      # placing objects
         r = s.find("[delete]")      # deleting objects
         z = s.find("[zip]")         # placing ziplines
@@ -75,20 +84,16 @@ def process():
     """ Processes the stuff """
     global propsFormatted
 
-    propsFormatted += words.CREATEPROPFUNCTION
-    # propsFormatted += words.CREATEZIPLINEFUNCTION
-
-    propsFormatted += words.HEADER
+    propsFormatted += HEADER
     for p in props.values():
         decoded = p.decode()
         propsFormatted += createEditorProp(decoded)
 
-    propsFormatted += words.FOOTER
+    propsFormatted += FOOTER
 
 
 def export():
-    """ Exports the props to a functional Apex Legends map
-        (not complete yet) """
+    """ Exports the props to a function that can be placed in an Apex Legends map """
     printdict(props)
     fOutSqrrl.write(propsFormatted)
 
