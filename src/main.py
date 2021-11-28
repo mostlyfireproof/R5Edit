@@ -25,7 +25,6 @@ HEADER = '''void function SpawnEditorProps()
 
 FOOTER = '''
 }
-#endif
 '''
 
 def printls(ls):
