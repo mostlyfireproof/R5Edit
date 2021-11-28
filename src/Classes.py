@@ -1,11 +1,23 @@
-# lets you move all the props by a bit
-OFFSETX = 0
-OFFSETY = 0
-OFFSETZ = 0
+class Vec3:
+    """ Represents a vector with 3 values. Can be used for position or angles. """
+    def __init__(self, x, y=-1, z=-1):
+        if y == z == -1:  # case when constructed with a single string
+            arr = x.replace('<', '').replace('>', '').replace('\n', '').split(',')
+            self.x = arr[0]
+            self.y = arr[1]
+            self.z = arr[2]
+        else:  # case when constructed with 3 values
+            self.x = x
+            self.y = y
+            self.z = z
+
+    def to_string(self) -> str:
+        """ Converts a vector to a string """
+        return "<" + str(self.x) + "," + str(self.y) + "," + str(self.z) + ">"
 
 
 class PropData:
-    ''' Represents the data for a prop in Apex Legends'''
+    """ Represents the data for a prop in Apex Legends"""
     def __init__(self, string: str):
         self.myHash = hash(string)
 
@@ -49,3 +61,15 @@ class PropData:
     def getHash(self) -> int:
         """ Just returns the hash, makes it easier to compare props """
         return self.myHash
+
+
+class Zipline(PropData):
+    """ Represents the data for a zipline """
+    def __init__(self, start: str, end: str):
+        self.myHash = hash(start + end)
+
+        self.start = Vec3(start)
+        self.end = Vec3(end)
+
+    def decode(self) -> str:
+        return self.start.to_string() + ", " + self.end.to_string()

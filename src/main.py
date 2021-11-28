@@ -1,5 +1,6 @@
 import argparse
-from PropData import PropData
+from Classes import PropData
+from Classes import Zipline
 
 # Sets up argparse
 parser = argparse.ArgumentParser(description='Creates a map from prop data')
@@ -49,11 +50,13 @@ def handleInput():
             break
     print("LINE: " + str(lastBootUp))
 
+    current_zip = ""
+
     # process every command
     for s in allCommands[lastBootUp:]:
         i = s.find("[editor]")      # placing objects
         r = s.find("[delete]")      # deleting objects
-        z = s.find("[zip]")         # placing ziplines
+        z = s.find("[zipline]")         # placing ziplines
         p = s.find("[pickup]")      # placing pickups (grenades, weapons)
         if i > 0:
             # might need to make this more robust for spawn points
@@ -73,8 +76,11 @@ def handleInput():
 
         elif z > 0:
             try:
-                pr = PropData(s[z+5:])
-                props[pr.getHash()] = pr
+                if s[z + 10] == "1":
+                    current_zip = s[z+12:]
+                else:
+                    zip = Zipline(current_zip, s[z+12:])
+                    props[zip.getHash()] = zip
             except:
                 print("Invalid input: " + s)
 
@@ -87,7 +93,10 @@ def process():
     propsFormatted += HEADER
     for p in props.values():
         decoded = p.decode()
-        propsFormatted += createEditorProp(decoded)
+        if isinstance(p, Zipline):
+            propsFormatted += createZip(decoded)
+        else:
+            propsFormatted += createEditorProp(decoded)
 
     propsFormatted += FOOTER
 
@@ -103,6 +112,11 @@ def export():
 def createEditorProp(propInfo: str) -> str:
     """ Creates a prop """
     return "    CreateEditorProp( " + propInfo + " )\n"
+
+
+def createZip(zipInfo: str) -> str:
+    """ Creates a zipline """
+    return "    CreateEditorZipline( " + zipInfo + " )\n"
 
 
 # This is where I actually run the functions
