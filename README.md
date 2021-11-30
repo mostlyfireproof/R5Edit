@@ -17,6 +17,6 @@ A tool to build maps out of props in the Apex Legends mod, R5Reloaded
 10. Replace the function `SpawnEditorProps()` with the contents of the output file
 11. Launch King's Canyon or World's Edge, depending on where you pasted the output
 
-[Tutorial video that covers most of this](https://www.youtube.com/watch?v=iqts0Nx1_VA)
+[Tutorial video that covers most of this](https://youtu.be/yPEYbcOVi58)
 
 Join the official Discord server for R5Reloaded: SAjuUWXNdS
