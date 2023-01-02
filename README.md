@@ -2,7 +2,7 @@
 
 A tool to build maps out of props in the Apex Legends mod, R5Reloaded
 
-# Instuctions
+# Instructions
 
 1. Install R5R
 2. Download this program
